@@ -14,20 +14,26 @@ For now should notes path of this repo, in ```build``` file:
 
 ## Building the ISO
 --------------------------------
+```
 sudo ./build
+```
+
   or
+
+```
 sudo uck-remaster ~/Downloads/ubuntu-14.04-desktop-amd64.iso ~/scripts_iso/roch-iso
+```
 
 Finially you should be find custom iso named ```livecd.iso``` in ```~/tmp/remaster-new-files/livecd.iso```
 
 ## Config Files
 --------------------------------
-apt_packages	List of packages to install via apt
-apt_deinstall	Packages to remove from the default Ubuntu ISO
-deb_packages	Packages that are not in a public repo [for testing]
-pip_packages	Python packages installed via pip
-inst_packages	Packages only needed for installer
-patch_list	ISO patches [if all else fails]
+ * apt_packages	List of packages to install via apt
+ * apt_deinstall	Packages to remove from the default Ubuntu ISO
+ * deb_packages	Packages that are not in a public repo [for testing]
+ * pip_packages	Python packages installed via pip
+ * inst_packages	Packages only needed for installer
+ * patch_list	ISO patches [if all else fails]
 
 
 ## Notes and Known Bugs
@@ -48,5 +54,5 @@ the wireless network connection.
 
 ## Sponsors
 --------
-Development of this software for ROS Indigo has been partially sponsored by SawYer Robotics Co.,Ltd
+Development of this software for ROS Indigo has been partially sponsored by Soy Robotics Co.,Ltd
 http://www.soyrobotics.com/
