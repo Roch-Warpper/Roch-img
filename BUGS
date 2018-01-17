@@ -1,0 +1,2 @@
+When make this custom iso there always install linux-headers-3.10.0-139, and will overwise orgin kernel 4.4.0.
+This bug should be fixed.

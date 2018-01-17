@@ -1,0 +1,10 @@
+--- ubuntu.seed.orig	2015-04-19 19:21:08.519147436 -0400
++++ ubuntu.seed	2015-04-19 19:22:22.399146365 -0400
+@@ -1,5 +1,7 @@
+ # Enable extras.ubuntu.com.
+ d-i	apt-setup/extras	boolean true
++d-i	passwd/user-default-groups	string adm cdrom dialout sudo dip plugdev lpadmin sambashare
++d-i	passwd/username	string ubuntu
+ # Install the Ubuntu desktop.
+ tasksel	tasksel/first	multiselect ubuntu-desktop
+ # On live DVDs, don't spend huge amounts of time removing substantial

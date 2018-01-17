@@ -1,0 +1,44 @@
+#aptitude
+# Common Developer tools
+#git-core
+openssh-server
+#chrony
+python-pip
+vim
+# ROS
+ros-indigo-desktop-full
+ros-indigo-rviz
+python-rosinstall
+python-wstool
+python-catkin-lint
+python-catkin-pkg
+python-catkintools
+#AutoRoch
+libbotan-1.10-0
+libbotan1.10-dev
+libssh2-1
+libssh2-1-dev
+ros-indigo-opencv3
+gcc-4.9
+g++-4.9
+# Roch
+ros-indigo-roch
+ros-indigo-autoroch
+ros-indigo-move-base
+ros-indigo-roch-base
+ros-indigo-roch-bringup
+ros-indigo-roch-capabilities
+ros-indigo-roch-control
+ros-indigo-roch-description
+ros-indigo-roch-follower
+ros-indigo-roch-ftdi
+ros-indigo-roch-gazebo
+ros-indigo-roch-msgs
+ros-indigo-roch-navigation
+ros-indigo-roch-rapps
+ros-indigo-roch-robot
+ros-indigo-roch-safety-controller
+ros-indigo-roch-sensorpc
+ros-indigo-roch-simulator
+ros-indigo-roch-teleop
+ros-indigo-roch-viz

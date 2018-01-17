@@ -1,0 +1,13 @@
+build_org=`pwd`
+UBUNTU_ISO=~/tools/ubuntu-14.04.5-desktop-amd64.iso
+BUILD_DIR=$build_org #~/tmp/customization-scripts #here should be place scripts for custom.
+ISO_DIR=~/tmp #Output dir for ubuntu_iso and custom_iso, should be same as ``customize``.
+#PROXY is a file containing the URL for a squid proxy
+#sudo http_proxy=`cat PROXY` uck-remaster $UBUNTU_ISO $ISO_DIR
+(
+sudo bash /usr/bin/uck-remaster -m $UBUNTU_ISO $BUILD_DIR $ISO_DIR
+echo "Build ended at `date +'%Y-%m-%d %H:%M:%S'`"
+echo "Running build process..."
+echo "Build ended at `date +'%Y-%m-%d %H:%M:%S'`"
+) 2>&1 | tee -a $ISO_DIR/build.log
+

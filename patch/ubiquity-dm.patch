@@ -1,0 +1,10 @@
+--- ubiquity-dm.orig	2015-04-19 19:44:46.571126882 -0400
++++ ubiquity-dm	2015-04-19 19:46:36.411125290 -0400
+@@ -365,6 +365,7 @@
+ 
+             background_image = None
+             for background in (
++                    '/usr/share/backgrounds/Roch_Init_by_IHE.jpg',
+                     '/usr/share/xfce4/backdrops/ubuntustudio-1310.png',
+                     '/usr/share/xfce4/backdrops/xubuntu-wallpaper.png',
+                     '/usr/share/lubuntu/wallpapers/'
